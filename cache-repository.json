@@ -1,0 +1,19 @@
+{
+  "artifact_kinds": [
+    "ccm_weil_eigenpair",
+    "ccm_weil_plunge_state",
+    "ccm_weil_sonin_state",
+    "ccm_source_eigenbasis"
+  ],
+  "artifact_layout": "artifacts/{artifact_kind}/{logical_key}/{parameter_digest}",
+  "default_branch": "main",
+  "family": "weil-states",
+  "immutable_objects": true,
+  "legacy_compatibility_repository": false,
+  "object_layout": "objects/sha256/{prefix2}/{sha256}",
+  "registry": "TeamXcelerator/xcelerator-cache-public-registry",
+  "repository": "TeamXcelerator/xcelerator-cache-public-weil-states-0001",
+  "schema_version": 1,
+  "shard": 1,
+  "writable": true
+}
